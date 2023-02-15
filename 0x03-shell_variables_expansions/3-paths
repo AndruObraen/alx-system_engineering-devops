@@ -1,2 +1,2 @@
-#!/bin/bas
+#!/bin/bashh
 echo $(('echo $PATH | grep -o ":/" | wc -l' + 1))
